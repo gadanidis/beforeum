@@ -3,6 +3,27 @@
 \title{Before the rise of um}
 \author{Derek Denis and Timothy Gadanidis}
 
+% bibliography
+\RequirePackage[
+    backend=biber,
+    style=apa,
+    sortcites=true,
+sorting=nyt]
+{biblatex}
+\RequirePackage[american]{babel}
+\bibliography{beforeum.bib}
+\RequirePackage{csquotes}
+\RequirePackage[american]{babel}
+\DeclareLanguageMapping{american}{american-apa}
+
+% colon postnotes
+\renewcommand{\postnotedelim}{%
+  \iffieldnums{postnote}
+    {\addcolon~}
+    {}}
+\DeclareFieldFormat{postnote}{#1}
+\DeclareFieldFormat{multipostnote}{#1}
+
 \begin{document}
 
 \maketitle
