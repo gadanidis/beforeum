@@ -37,6 +37,8 @@ sorting=nyt]
 % figures
 \usepackage{graphicx}
 
+\usepackage[section]{placeins}
+
 % extracts
 \usepackage{newfloat}
 \usepackage{caption}
@@ -133,11 +135,7 @@ and silent pauses, rather than in \emph{and-uh} and its ilk, leads to the
 perception of (UHM) as a word in the lexicon, leading it to be available for
 conscious use.
 If this process was a factor in (UHM)'s diachronic development, we might expect
-to see an effect of cliticization
-% diachronically --- could be seen as part of gramamticalization/lexicalization
-% process
-
-% TODO: Is there something interesting to say about that?
+to see an effect of cliticization at this early stage.
 
 As we note above, the rise of \emph{um} has now been described extensively in
 the variationist and corpus-linguistic literature, across a number of corpora
@@ -153,7 +151,7 @@ wielingetal2016}, both in real and apparent time.
 five other Germanic languages: Dutch, German, Norwegian, Danish, and Faroese.
 
 While these accounts demonstrate definitively that a change is underway, an
-explanation for the change remains elusive.
+explanation remains elusive.
 What was the trigger for this ``textbook'' change?
 \textcite{fruehwald2016} and \textcite{wielingetal2016} both suggest that a new
 meaning or function for \emph{um} may have emerged in English\footnote{%
@@ -161,9 +159,11 @@ meaning or function for \emph{um} may have emerged in English\footnote{%
     crosslinguistic nature of the change: a function could have emerged in
     English and then spread through contact to the other Germanic languages.
 }.
-% TODO: good way of explaining why we still tested this hypothesis blabla
-In this chapter, we investigate data from before the rise of \emph{um} with the
-goal of evaluating the functional expansion hypothesis.
+Although \textcite{fruehwald2016} found that \emph{um} and \emph{uh} appeared to
+be trading frequencies, casting doubt on a functional expansion explanation, it
+is possible that the emergence of a new function at some earlier point may have
+played a role nearer to the beginning of the change.
+Accordingly, in this chapter, we investigate data from before the rise of \emph{um} with the goal of evaluating the functional expansion hypothesis.
 
 \section{Data and coding}
 
@@ -188,8 +188,46 @@ The data were coded for the following social factors:
 year of birth, gender, and region (Niagara or Eastern Ontario).
 Year of birth and gender were used to operationalize the change-in-progress
 hypothesis.
-Table % TODO \ref{tab:speakers}
-presents a table of speakers by gender, region, and year of birth.
+Table~\ref{tab:speakers} presents a table of speakers by gender, region, and
+year of birth.
+
+\begin{table}[ht!]
+    \centering
+    \begin{tabular}{llll}
+        \toprule
+        ID & Gender & Region  & Year of birth \\
+        \midrule
+        F-INT  & F & N/A             & unknown \\
+        M-INT  & M & N/A             & unknown \\
+        NO-1   & M & Niagara         & 1906    \\
+        NO-9   & F & Niagara         & 1912    \\
+        NO-11  & M & Niagara         & 1917    \\
+        NO-12  & F & Niagara         & 1916    \\
+        NO-20  & F & Niagara         & 1911    \\
+        NO-22  & F & Niagara         & 1899    \\
+        NO-23  & M & Niagara         & 1898    \\
+        NO-24  & M & Niagara         & 1902    \\
+        NO-27  & M & Niagara         & 1911    \\
+        NO-28  & M & Niagara         & 1907    \\
+        NO-32  & F & Niagara         & 1904    \\
+        NO-35  & F & Niagara         & 1902    \\
+        NO-36  & F & Niagara         & 1903    \\
+        SG-001 & M & Eastern Ontario & 1891    \\
+        SG-004 & F & Eastern Ontario & 1907    \\
+        SG-006 & M & Eastern Ontario & 1905    \\
+        SG-012 & M & Eastern Ontario & 1910    \\
+        SG-013 & F & Eastern Ontario & 1914    \\
+        SG-014 & F & Eastern Ontario & 1899    \\
+        SG-016 & M & Eastern Ontario & 1912    \\
+        SG-019 & M & Eastern Ontario & 1904    \\
+        SG-020 & F & Eastern Ontario & 1906    \\
+        SG-022 & F & Eastern Ontario & 1915    \\
+        SG-024 & M & Eastern Ontario & 1898    \\
+        SG-028 & F & Eastern Ontario & 1919    \\
+        \bottomrule
+    \end{tabular}
+    \caption{Table of speakers.}\label{tab:speakers}
+\end{table}
 
 We also coded for two linguistic factors.
 To operationalize the functional expansion hypothesis, we coded for utterance
@@ -329,9 +367,8 @@ noninitial ones.
 Looking at the noncliticized side of the tree, we see another positional split,
 again with noninitial tokens having a lower rate than initial ones.
 Within the initial tokens, there is also an effect of year of birth:
-speakers born after 1916 have a much higher \emph{um} rate in noncliticized
-initial tokens than those born in 1916 or earlier.
-It should be noted % FIXME
+speakers born after 1898 have a much higher \emph{um} rate in noncliticized
+tokens, and this is especially true in initial position.
 
 \begin{figure}[htpb]
     \centering
@@ -342,6 +379,12 @@ It should be noted % FIXME
 
 Figure~\ref{fig:interviewertree} shows a conditional inference tree for the two
 interviewers.
+As shown in the tree, the internal constraints are much the same, but the
+baseline \emph{um} rate is much higher (due in large part to the female
+interviewer).
+\emph{Uh} is common in the cliticized forms, while \emph{um} is more common in
+the cliticized ones---%
+especially in initial position.
 
 \begin{figure}[htpb]
     \centering
@@ -398,7 +441,7 @@ Conversely, if \emph{um} were straightforwardly replacing \emph{uh}, we should
 expect \emph{uh} to fall concurrently with \emph{um}'s rise.
 
 Figure~\ref{fig:relfreq} shows the frequency of \emph{um} and \emph{uh} per 1000
-words for each of farmers.
+words for each of the farmers.
 There is some evidence of a fishtail pattern, but in the opposite direction as
 expected: \emph{uh} is increasing as \emph{um} remains relatively stable.
 The pattern is more extreme when we split the data by position, as in
@@ -414,48 +457,69 @@ match the male speakers by the 1910s.
 \begin{figure}[htpb]
     \centering
     \includegraphics[width=0.8\linewidth]{figures/relfreq.png}
-    \caption{Name}%
+    \caption{Frequency of \emph{uh} and \emph{um} per 1000 words}%
     \label{fig:relfreq}
 \end{figure}
 
 \begin{figure}[htpb]
     \centering
     \includegraphics[width=0.8\linewidth]{figures/relfreqposition.png}
-    \caption{Name}%
+    \caption{Frequency of \emph{uh} and \emph{um} per 1000 words, by position}%
     \label{fig:relfreqposition}
 \end{figure}
 
 \begin{figure}[htpb]
     \centering
     \includegraphics[width=0.8\linewidth]{figures/relfreqgenderposition.png}
-    \caption{Name}%
+    \caption{Frequency of \emph{uh} and \emph{um} per 1000 words, by position
+    and gender}%
     \label{fig:relfreqgenderposition}
 \end{figure}
 
 \section{Discussion}
 
-Exploring data from before the rise of \emph{um} has failed to yield insight on
-its dramatic rise.
-Looking at the proportional frequency, we do find that for a few of the younger
-farmers, % TODO: check how many
+Exploring data from before the rise of \emph{um} has not yielded a definitive
+explanation for the change.
+Looking at the proportional frequency, we do find that for the younger
+farmers,
 \emph{um} appears more frequent than \emph{uh} in initial position, and the same
 is the case for the two (much younger) interviewers.
-Alone, this could be taken as suggestive (but not definitive, given the low
-number of speakers involved) evidence in favour of a new, initial-position
-function for \emph{um}.
-
-Looking at the relative frequency, however, we see that the pattern is not driven
-by an increase of \emph{um} in initial position---%
+Alone, this could be taken as suggestive evidence in favour of a new,
+initial-position function for \emph{um}.
+Looking at the relative frequency, however, we see that the pattern does not
+appear to be driven by an increase of \emph{um} in initial position---%
 like \textcite{fruehwald2016}, we do not find strong evidence that a new,
-utterance-initial function for \emph{um} is behind the dramatic rise of
-\emph{um}.
-Instead, we find evidence of a different change: an increase in \emph{uh} in
-non-initial position.
+utterance-initial function for \emph{um} is behind the rise of \emph{um}.
+Instead, we find evidence of a different change:
+younger speakers fill more pauses than their older counterparts, and when they
+do, they are largely using uncliticized \emph{uh} in non-initial position.
 
-See Extracts~\ref{ext:highuhm} and~\ref{ext:lowuhm} for examples of speakers
-who use (UHM) frequently and infrequently, respectively.
+This difference is illustrated by Extracts~\ref{ext:highuhm}
+and~\ref{ext:lowuhm}:
+two passages of about the same length from NO-11, a younger woman (born 1917),
+and NO-36, an older woman (born 1903).
+In the transcriptions, (UHM) is bolded, and unfilled pauses are indicated using
+(.) or (\ldots), depending on the length of the pause.
+In her extract, NO-11 uses (UHM) eight times---%
+all but one of which are \emph{uh}.
+In sharp contrast, NO-36 does not use (UHM) once, opting instead for lengthy,
+unfilled pauses.
+With respect to (UHM), the two speakers employ fundamentally different discourse
+strategies.
 
-\begin{extract}
+While our data are too early to shed much light on the rise of \emph{um}, and it
+is important to be careful when generalizing across corpora and speech
+communities, it is possible that the \emph{uh}-led shift from unfilled to filled
+pauses played a role in the competition between \emph{um} and \emph{uh} in the
+years to come.
+For example, if \emph{uh} became specialized to non-initial
+position, which often appears to indicate word-search \parencite{tottie2016,
+tottie2017}, it may have become a less desirable variant (frequent word-search
+possibly giving the impression of disfluency).
+However, we have to stress that more work would be needed for us to be able to
+go beyond this kind of speculation.
+
+\begin{extract}[ht!]
     \begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
         \begin{dialogue}
 
@@ -475,7 +539,7 @@ who use (UHM) frequently and infrequently, respectively.
     \caption{High (UHM) user}\label{ext:highuhm}
 \end{extract}
 
-\begin{extract}
+\begin{extract}[ht!]
     \begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
         \begin{dialogue}
 
@@ -510,10 +574,11 @@ who use (UHM) frequently and infrequently, respectively.
     \caption{Low (UHM) user}\label{ext:lowuhm}
 \end{extract}
 
-% TODO: evidence of a different change — unfilled to filled pauses
-
-% TODO: importance of multiple methods — conflicting views on expansion
-% quantitative innovation (thanks)
+These results highlight the importance of viewing discourse-pragmatic variation
+from multiple angles:
+the two perspectives we employ here, a proportional analysis and a relative
+frequency analysis, provide conflicting information about the functional
+expansion hypothesis.
 
 \printbibliography
 
