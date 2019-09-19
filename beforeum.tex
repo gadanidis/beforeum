@@ -380,18 +380,25 @@ initial tokens.
 \end{figure}
 
 Figure~\ref{fig:farmertree} shows a conditional inference tree for all farmers.
+Conditional inference trees are statistical models built by repeatedly splitting
+the data based on a set of covariates, using a significance test procedure to
+select the variables to split by.
+The model in Figure~\ref{fig:farmertree} contained the predictors position
+(``pos''), cliticization (``clitic''), gender (which was not selected for any
+splits), and year of birth.
 The model confirms several of the patterns indicated in
 Figures~\ref{fig:apparenttime}--\ref{fig:apparentclitic}.
-The tree splits first at cliticization, with cliticized (UHM) having the lowest
+The tree splits first at cliticization, with cliticized (UHM) having a low
 overall \emph{um} rate.
 Within the cliticized tokens, there is a slight difference between noninitial
-and initial (UHM), with initial tokens having a higher \emph{um} rate than
-noninitial ones.
+and initial (UHM), with initial tokens having a higher \emph{um} rate (9.39\%)
+than noninitial ones (4.35\%).
 Within the noncliticized tokens, there is an effect of year of birth:
 speakers born after 1898 have a much higher \emph{um} rate in noncliticized
-tokens.
+tokens than that of speakers born in 1898 or earlier (4.65\%).
 This is especially true in initial position:
-noninitial cliticized tokens have a lower \emph{um} rate than initial ones.
+noninitial cliticized tokens have a lower \emph{um} rate (16.10\%) than initial
+ones (21.90\%).
 
 \begin{figure}[htpb]
     \centering
@@ -402,12 +409,14 @@ noninitial cliticized tokens have a lower \emph{um} rate than initial ones.
 
 Figure~\ref{fig:interviewertree} shows a conditional inference tree for the two
 interviewers.
+The model contained position and cliticization (the interviewers' years of birth
+are not known, and there are only two speakers in any case).
 As shown in the tree, the internal constraints are much the same, but the
 baseline \emph{um} rate is much higher (due in large part to the female
 interviewer).
-\emph{Uh} is common in the cliticized forms, while \emph{um} is more common in
-the cliticized ones---%
-especially in initial position.
+\emph{Um} is the least common in the cliticized forms (13.90\%).
+In non-cliticized forms, there is a split by position, where initial tokens
+favour \emph{um} (53.20\%) compared to non-initial tokens (40.90\%).
 
 \begin{figure}[htpb]
     \centering
