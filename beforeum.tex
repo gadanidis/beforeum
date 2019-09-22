@@ -227,8 +227,8 @@ year of birth.
         \toprule
         ID & Gender & Region  & Year of birth \\
         \midrule
-        F-INT  & F & Niagara         & unknown \\
-        M-INT  & M & Eastern Ontario & unknown \\
+        F-INT   & F & Niagara         & unknown \\
+        M-INT   & M & Eastern Ontario & unknown \\
         NIA-1   & M & Niagara         & 1906    \\
         NIA-9   & F & Niagara         & 1912    \\
         NIA-11  & M & Niagara         & 1917    \\
@@ -299,6 +299,11 @@ Neighborhood Corpus (PNC) \parencite{labovrosenfelder2011}, and the British
 National Corpus (BNC) (\citeyear{bnc}).
 The numbers for all of these other corpora are drawn from
 \textcite{wielingetal2016}.
+From left to right, the columns provide the raw number of \emph{uh} tokens, the
+raw number of \emph{um} tokens, the percentage of (UHM) tokens that were
+\emph{um}, the mean frequency of \emph{uh} per 1000 words (averaged across
+speakers), the mean frequency of \emph{um} per 1000 words, and the mean
+frequency of (UHM) altogether per 1000 words.
 
 \begin{table}[ht!]
     \centering
@@ -322,8 +327,6 @@ The numbers for all of these other corpora are drawn from
     \label{t:comparison}
 \end{table}
 
-% TODO: describe how to read the tables and charts
-
 As can be seen in the table, \emph{um} is less frequent in our data compared to
 the more recent corpora; the female interviewer uses it around half the time,
 while the male interviewer's rate is comparable to the farmers'.
@@ -333,11 +336,12 @@ and transcribed differently \parencite[for related discussion,
 see][]{pichler2010}.
 
 Looking at individual speakers' rates, we can see that all speakers use both
-\emph{uh} and \emph{um}, but there is no clear pattern by age
-(Figure~\ref{fig:indivage}) or gender (Figure~\ref{fig:indivgender}).
-
-% TODO: these figures probably need to be remade in black and white
-%       plus there are a lot of visual improvements that could be made
+\emph{uh} and \emph{um}, but there is no clear pattern by age or gender.
+Figures~\ref{fig:indivage} and~\ref{fig:indivgender} illustrate this by
+presenting each speaker's \emph{um} rate, with the bars coloured by region and
+gender, respectively.
+The numbers at the top of each bar indicate the number of (UHM) tokens for that
+speaker.
 
 \begin{figure}[htpb]
     \centering
@@ -354,9 +358,17 @@ Looking at individual speakers' rates, we can see that all speakers use both
 \end{figure}
 
 Figure~\ref{fig:apparenttime} shows the proportion of \emph{um} in apparent
-time.
+time, with year of birth on the $x$-axis and \emph{um} rate on the $y$-axis.
+Each point represents one farmer.
 In the plot to the left, year of birth is binned into five-year increments,
-whereas in the plot to the right, year of birth is continuous.
+which makes the patterns easier to see;
+in the plot to the right, year of birth is continuous, and the line is drawn
+using R's LOESS (locally-estimated scatterplot smoothing) function.
+Because LOESS is a local regression technique, the fit at a given point is based
+on the data close to that point.
+The size of each point indicates the number of tokens in that point (but note
+that the number of tokens in each point was not taken into account by the
+LOESS fit).
 In both cases, there is a modest trend upward over time.
 To determine the possible predictors underlying this trend, in the following
 figures we split the data by gender, position and cliticization.
@@ -405,7 +417,7 @@ initial tokens.
 Figure~\ref{fig:farmertree} shows a conditional inference tree for all farmers.
 Conditional inference trees are statistical models built by repeatedly splitting
 the data based on a set of covariates, using a significance test procedure to
-select the variables to split by.
+select the variables to split by \parencite{tagliamontebaayen2012}.
 The model in Figure~\ref{fig:farmertree} contained the predictors position
 (``pos''), cliticization (``clitic''), gender (which was not selected for any
 splits), and year of birth.
@@ -506,7 +518,9 @@ Conversely, if \emph{um} were straightforwardly replacing \emph{uh}, we should
 expect \emph{uh} to fall concurrently with \emph{um}'s rise.
 
 Figure~\ref{fig:relfreq} shows the frequency of \emph{um} and \emph{uh} per 1000
-words for each of the farmers.
+words for each of the farmers, with year of birth on the $x$-axis and frequency
+on the $y$-axis.
+Each point represents one farmer.
 There is some evidence of a fishtail pattern, but in the opposite direction as
 expected: \emph{uh} is increasing as \emph{um} remains relatively stable.
 The pattern is more extreme when we split the data by position, as in
