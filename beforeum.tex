@@ -560,6 +560,49 @@ match the male speakers by the 1910s.
 \end{figure}
 
 % TODO: poisson model
+We ran a mixed-effects Poisson regression model to confirm these interactions,
+the results of which are shown in Table~\ref{tab:poisson}.
+The dataset fed to the model included each speaker's \emph{um} and \emph{uh}
+rates per 1000 words in non-initial position.
+The dependent variable was frequency per 1000 words;
+year of birth, gender, and variant (\emph{uh} or \emph{um}) were the predictors,
+along with a random intercept for speaker.
+The reference level for gender was male, and the reference level for variant
+was \emph{um}.
+Poisson regressions are well-suited for count data, because the range of
+possible values is limited to zero and above, and the assumption of normality is
+not required.
+Because our data are rates, not raw count data, the logarithm of each speaker's
+word count was used as an offset in order to normalize across speakers.
+
+\begin{table}
+    \centering
+    \begin{tabular}{lrrrr}
+        \toprule
+        Predictor                        & Estimate & Std.~Error & \emph{z} & \emph{p} \\
+        \midrule
+        (Intercept)                      & -6.13167 & 0.15310    & -40.050  & 0        \\
+        year of birth                    & 0.05417  & 0.02130    & 2.543    & 0.010991 \\
+        variant (\emph{uh})              & 2.14496  & 0.07991    & 26.842   & 0        \\
+        gender (male)                    & -0.09394 & 0.21555    & -0.436   & 0.662971 \\
+        year of birth : variant          & -0.04546 & 0.01032    & -4.406   & 0        \\
+        year of birth : gender           & -0.03061 & 0.03119    & -0.982   & 0.326301 \\
+        variant : gender                 & -0.42314 & 0.11882    & -3.561   & 0.000369 \\
+        year of birth : variant : gender & 0.10371  & 0.01659    & 6.250    & 0        \\
+        \bottomrule
+    \end{tabular}
+    \caption{Mixed-effects Poisson regression model on non-initial (UHM) rates.}\label{tab:poisson}
+\end{table}
+
+Table~\ref{tab:poisson} shows that there is an interaction between year of birth,
+variant, and gender.
+The relevant coefficient, 0.10371, indicates that in non-initial position, the
+slope for year of birth for \emph{uh} is predicted to be greater for men than
+for women.
+In other words, women's non-initial \emph{uh} rates are increasing over time to
+a greater extent than men's are.
+This confirms the pattern shown in the bottom-left and bottom-right facets of
+Figure~\ref{fig:relfreqgenderposition}.
 
 \section{Discussion}
 
