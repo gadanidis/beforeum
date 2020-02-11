@@ -268,3 +268,8 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+
+# other
+#
+comments.md
+beforeum.zip
