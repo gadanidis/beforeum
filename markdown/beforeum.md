@@ -17,8 +17,7 @@ secPrefix:
 
 ...
 
-Introduction
-============
+# Introduction
 
 One of the most dramatic discourse-pragmatic changes in twentieth-century
 English has progressed under the radar of laypeople and (until recently)
@@ -47,8 +46,7 @@ variable itself in discourse to help in our interpretation. What we find is a
 need to look beyond the envelope of variation, as defined, to understand the
 results that we see.
 
-(UHM) as a pragmatic marker
-===========================
+# (UHM) as a pragmatic marker
 
 The exact nature of (UHM) as a linguistic feature is not a trivial question. A
 great deal of ink has been spilled over whether they are produced consciously or
@@ -137,8 +135,7 @@ functional expansion hypothesis.
     in English and then spread through contact to the other Germanic
     languages.
 
-Data and coding
-===============
+# Data and coding
 
 The data for this study are from the *Farm Work and Farm Life Since 1890* oral
 history collection [@denis2016]. The corpus consists of oral history interviews
@@ -270,11 +267,9 @@ as "clitic" if it occurred immediately following *and* or *but*, as in
 
 (@nonclitic) **Um** do you know how old you were when you started?  (F-INT)
 
-Results
-=======
+# Results
 
-Proportional frequency
-----------------------
+## Proportional frequency
 
 @tbl:comparison shows how our data compare with previous communities analyzed.
 The first block summarizes our data from Niagara and Eastern Ontario, as well as
@@ -416,8 +411,7 @@ potentially due to the emergence of a new utterance-initial discourse/pragmatic
 function. In the following section, we test this hypothesis using relative
 frequency data.
 
-Relative frequency
-------------------
+## Relative frequency
 
 @fruehwald2016 tests the hypothesis that functional expansion triggered the rise
 of um by considering changes to the relative frequency of variants over time
@@ -506,8 +500,7 @@ to *um*) is increasing over time to a greater extent than men's is. This
 confirms the fishtail pattern shown in the bottom-left and bottom-right facets
 of @fig:relfreqgenderposition.
 
-Discussion
-==========
+# Discussion
 
 Exploring data from before the rise of *um* has not yielded a definitive
 explanation for the change. Looking at the proportional frequency, we do find
@@ -592,8 +585,7 @@ may have become associated with this function, explaining its rise in overall
 frequency among women in our data. However, we have to stress that more work
 would be needed for us to be able to go beyond this kind of speculation.
 
-Conclusion
-==========
+# Conclusion
 
 This study analyzed both proportional and relative frequency data, with the goal
 of identifying potential triggers for the rise of *um* that has been described
