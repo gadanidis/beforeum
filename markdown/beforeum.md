@@ -52,36 +52,38 @@ results that we see.
 
 The exact nature of (UHM) as a linguistic feature is not a trivial question. A
 great deal of ink has been spilled over whether they are produced consciously or
-unconsciously, and what their purpose is. For example, @maclayosgood1959
-[41--42] characterize (UHM) as a floor-management device which speakers insert
-to indicate that they do not want to be interrupted when hesitating over what to
-say. @levelt1983 [@levelt1989] describes (UHM) as an involuntary noise produced
-as a result of production problems: "[*uh*] apparently signals that at the
-moment when trouble is detected, the source of the trouble is still actual or
-quite recent. But otherwise, [*uh*] doesn't seem to mean anything. It is a
-symptom, not a sign" [@levelt1989 484].
+unconsciously, and what their purpose is. One common view in the
+psycholinguistics literature is that (UHM) is an involuntary noise uttered as a
+result of production problems. For example, according to @levelt1989, "[*uh*]
+apparently signals that at the moment when trouble is detected, the source of
+the trouble is still actual or quite recent. But otherwise, [*uh*] doesn't seem
+to mean anything. It is a symptom, not a sign" [@levelt1989 484].
 
 One problem with the involuntary "symptom" view is that, as @clarkfoxtree2002
 point out, speakers have some control over whether or not they produce
 (UHM)---for example, it can be suppressed in a public speaking context (and
-indeed speakers are often counselled to do so).  They argue that (UHM) is an
-"interjection" used to signify a delay, with *um* signalling longer delays than
-*uh*.
+indeed, speakers are often counselled to do so). Based on data from corpora of
+spontaneous speech, they argue that (UHM) is an "interjection" used to signify a
+delay, with *um* signalling longer delays than *uh*. This view of (UHM) as an
+ordinary word, which is planned and produced like any other, is broadly similar
+to a seminal analysis by @maclayosgood1959[: 41--42] that characterizes (UHM) as
+a floor-management device which speakers insert to indicate that they do not
+want to be interrupted when hesitating over what to say.
 
-Recently, @tottie2016 has put forward the argument that (UHM) is a pragmatic
-marker that, in speech, indicates planning. This is on the basis that (UHM) is
-used more frequently in contexts requiring more speaker planning, such as
-narratives and responses to questions.  @tottie2017 describes (UHM) as being on
-a "cline of lexicalization", where forms like *and-uh* and *but-uh* are not
-perceived as words, but *uh* and *um* alone are. @tottie2017[: 21--22] describes
-the former case, where the final consonant of a monosyllabic word such as *and*
-or *but* is immediately followed by (UHM), as cliticized forms. She goes on to
-argue that the use of (UHM) between words and silent pauses, rather than in
-these cliticized forms, causes (UHM) to be perceived as a word in the lexicon,
-making it available for conscious use in writing. Along the same lines,
-@gadanidis2018c argues that (UHM) is consciously, agentively used in instant
-messaging, an interactive, text-based medium. On this hypothesis, (UHM) has
-transitioned from a purely interactional feature (indicating that a pause is
+Extending this line of analysis, @tottie2016 has put forward the argument that
+(UHM) is a pragmatic marker that, in speech, indicates planning. This is on the
+basis that (UHM) is used more frequently in contexts requiring more speaker
+planning, such as narratives and responses to questions.  @tottie2017 describes
+(UHM) as being on a "cline of lexicalization", where forms like *and-uh* and
+*but-uh* are not perceived as words, but *uh* and *um* alone are. @tottie2017[:
+21--22] describes the former case, where the final consonant of a monosyllabic
+word such as *and* or *but* is immediately followed by (UHM), as cliticized
+forms. She goes on to argue that the use of (UHM) between words and silent
+pauses, rather than in these cliticized forms, causes (UHM) to be perceived as a
+word in the lexicon, making it available for conscious use in writing. Along the
+same lines, @gadanidis2018c argues that (UHM) is consciously, agentively used in
+instant messaging, an interactive, text-based medium. On this hypothesis, (UHM)
+has transitioned from a purely interactional feature (indicating that a pause is
 incoming due to planning) to an interpersonal feature that indicate the
 speaker's stance or point of view. For example, in (@opera), from
 @tottie2017[: (2)], the writer plays on the word-search-indicating function of
@@ -103,19 +105,32 @@ ratio than men, and that younger speakers have a higher *um*--*uh* ratio than
 older ones. This pattern has been demonstrated in various speech communities and
 contexts in the United States [@acton2011; @fruehwald2016; @wielingetal2016;
 @lasernaetal2014], as well as in England and Scotland [@tottie2011;
-@wielingetal2016], both in real and apparent time. @wielingetal2016 also show
-that this pattern extends beyond English to five other Germanic languages:
+@wielingetal2016], both in real and apparent time. In other words, we see a
+pattern consistent with a classic sociolinguistic change---it is led by women,
+and increasing over time and through generations---and this pattern is
+replicated through multiple studies and multiple regions. Moreover,
+@wielingetal2016 show that the pattern extends cross-linguistically as well,
+showing that it exists not only in English but in five other Germanic languages:
 Dutch, German, Norwegian, Danish, and Faroese.
 
 While these accounts demonstrate definitively that a change is underway, an
 explanation remains elusive. What was the trigger for this "textbook" change?
 @fruehwald2016 and @wielingetal2016 both suggest that a new meaning or function
-for *um* may have emerged in English[^1]. Although @fruehwald2016 found that
-*um* and *uh* appeared to be trading frequencies, casting doubt on a functional
-expansion explanation, it is possible that the emergence of a new function at
-some earlier point may have played a role nearer to the beginning of the change.
-Accordingly, in this chapter, we investigate data from before the rise of *um*
-with the goal of evaluating the functional expansion hypothesis.
+for *um* may have emerged in English[^1]. While neither study is explicit about
+what such a function might be, some evidence adduced in support of this idea are
+the findings that *um* "tended to have a longer duration, was preceded and
+followed by longer pauses, and was more frequently found at the beginning or end
+of an utterance than *uh*" [@wielingetal2016: 228]. @wielingetal2016 also
+suggest that *um*'s rise may be related to a possible increase in its frequency
+of use as a discourse marker (to manage turn-taking or to signal speaker
+stance), which was not taken into account in their analysis.
+
+Although @fruehwald2016 notes that *um* and *uh* appear to be trading
+frequencies, casting doubt on a functional expansion explanation, it is possible
+that the emergence of a new function at some earlier point may have played a
+role nearer to the beginning of the change.  Accordingly, in this chapter, we
+investigate data from before the rise of *um* with the goal of evaluating the
+functional expansion hypothesis.
 
 [^1]: For @wielingetal2016, this is a possible explanation for the
     crosslinguistic nature of the change: a function could have emerged
