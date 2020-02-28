@@ -91,10 +91,10 @@ speaker's stance or point of view. For example, in (@opera), from
 become increasingly popular, more people wonder about the castrati --- the
 emasculated singers ... (*L.A. Times* 2005)
 
-If this process was a factor in (UHM)'s diachronic development, we might expect
-to see an effect of cliticization at this early stage, with the variant that is
-more advanced in this functional change being used more outside of cliticized
-forms like *and-uh*.
+If this process was a factor in (UHM)'s diachronic development, we might
+expect to see an effect of cliticization at early stages, with the variant
+that is more advanced in this functional change being used more outside of
+cliticized forms like *and-uh*.
 
 As we note above, the rise of *um* has now been described extensively in the
 variationist and corpus-linguistic literature, across a number of corpora and
