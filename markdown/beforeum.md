@@ -87,7 +87,7 @@ has transitioned from a purely interactional feature (indicating that a pause is
 incoming due to planning) to an interpersonal feature that indicate the
 speaker's stance or point of view. For example, in (@opera), from
 @tottie2017[: (2)], the writer plays on the word-search-indicating function of
-*uh* to draw attention to their pun: 
+*uh* to draw attention to their pun:
 
 (@opera) An ode to opera's, **uh, operation**. As ... Baroque-era composers
 become increasingly popular, more people wonder about the castrati --- the
@@ -569,7 +569,7 @@ desirable variant (frequent word-search potentially giving the impression of
 disfluency). (@wordsearch) provides an example of this word-search usage from
 @tottie2016:[^3]
 
-(@wordsearch) Oh, 
+(@wordsearch) Oh,
 that one goes with --\
 .. That's **um**=,\
 ...**u=m**\
